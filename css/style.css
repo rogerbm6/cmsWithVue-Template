@@ -204,6 +204,7 @@ a:focus,
 .intro .overlay {
   background: rgba(0, 0, 0, 0.4);
 }
+
 .intro h1 {
   font-family: "Dancing Script", cursive;
   color: #fff;
@@ -212,6 +213,18 @@ a:focus,
   margin-top: 0;
   margin-bottom: 10px;
 }
+/*Responsive*/
+@media (max-width: 600px) {
+	.intro h1 {
+	  font-family: "Dancing Script", cursive;
+	  color: #fff;
+	  font-size: 6.7em;
+	  font-weight: 700;
+	  margin-top: 0;
+	  margin-bottom: 10px;
+	}
+}
+
 .intro span {
   color: #a7c44c;
   font-weight: 600;
