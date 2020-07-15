@@ -201,7 +201,7 @@ a:focus,
 
 .btn-custom {
   text-transform: uppercase;
-  color: #25272e;
+  color: #444646;
   background-image: linear-gradient(
     270deg,
     #ff9a9e 0%,
@@ -224,7 +224,7 @@ a:focus,
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
-  color: #25272e;
+  color: #444646;
   background-image: linear-gradient(
     270deg,
     #db8487 0%,
@@ -601,17 +601,22 @@ ol.type li a:hover {
 #call-reservation {
   padding: 90px 0;
   color: #fff;
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  );
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0a6ca+50,f986c0+94 */
-  background: #f0a6ca;
+  /*background: #f0a6ca;*/
   /* Old browsers */
-  background: -moz-linear-gradient(top, #f0a6ca 50%, #f986c0 94%);
+  /*background: -moz-linear-gradient(top, #f0a6ca 50%, #f986c0 94%);*/
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #f0a6ca 50%, #f986c0 94%);
+  /*background: -webkit-linear-gradient(top, #f0a6ca 50%, #f986c0 94%);*/
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #f0a6ca 50%, #f986c0 94%);
+  /*background: linear-gradient(to bottom, #f0a6ca 50%, #f986c0 94%);*/
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0a6ca', endColorstr='#f986c0', GradientType=0);
-  /* IE6-9 */
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0a6ca', endColorstr='#f986c0', GradientType=0)  */ /* IE6-9 */
 }
 
 #call-reservation .overlay {
@@ -621,7 +626,7 @@ ol.type li a:hover {
 
 #call-reservation h2 {
   font-family: "Open Sans", sans-serif;
-  color: #fff;
+  color: #262626;
   font-weight: 400;
   margin: 0;
 }
@@ -741,6 +746,10 @@ label {
   margin-bottom: 20px;
 }
 
+#footer .contact-item p {
+  color: #fff;
+}
+
 #footer .copyrights {
   padding: 20px 0;
   margin-top: 50px;
@@ -769,23 +778,23 @@ label {
 #footer .social i.fa {
   font-size: 26px;
   padding: 4px;
-  color: #fff;
+  color: #262626;
   transition: all 0.3s;
 }
 
 #footer .social i.fa:hover {
-  color: #eee;
+  color: #333333;
 }
 
 #footer p {
   font-size: 15px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #262626;
 }
 
 #footer a {
-  color: #f6f6f6;
+  color: #262626;
 }
 
 #footer a:hover {
-  color: #333;
+  color: #333333;
 }
