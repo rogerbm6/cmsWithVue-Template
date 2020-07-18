@@ -303,6 +303,10 @@ header .intro-text {
   margin-left: 10px;
 }
 
+#about .second-p {
+  margin-top: 50px;
+}
+
 #about .about-img {
   display: inline-block;
   position: relative;
