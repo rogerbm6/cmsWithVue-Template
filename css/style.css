@@ -635,6 +635,10 @@ ol.type li a:hover {
   margin: 0;
 }
 
+#call-reservation h2 strong {
+  color: #262626 !important;
+}
+
 #call-reservation hr {
   background: #fff;
 }
