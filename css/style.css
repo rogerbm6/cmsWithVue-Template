@@ -625,8 +625,7 @@ ol.type li a:hover {
 
 #call-reservation .overlay {
   padding: 80px 0;
-  /*background: #f0a6ca;*/
-  background: #141414;
+  background: #262626 !important;
 }
 
 #call-reservation h2 {
@@ -775,8 +774,33 @@ label {
   margin-bottom: 20px;
 }
 
+#call-reservation .overlay {
+  padding: 80px 0;
+  background: #fff !important;
+}
+
 #footer .contact-item p {
   color: #fff !important;
+}
+
+#footer .contact-item p a:link {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+#footer .contact-item p a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+#footer .contact-item p a:visited {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+#footer .contact-item p a:active {
+  color: #fff !important;
+  text-decoration: none;
 }
 
 #footer .copyrights {
