@@ -625,7 +625,8 @@ ol.type li a:hover {
 
 #call-reservation .overlay {
   padding: 80px 0;
-  background: #f0a6ca;
+  /*background: #f0a6ca;*/
+  background: #141414;
 }
 
 #call-reservation h2 {
