@@ -630,7 +630,7 @@ ol.type li a:hover {
 
 #call-reservation h2 {
   font-family: "Open Sans", sans-serif;
-  color: #262626;
+  color: #262626 !important;
   font-weight: 400;
   margin: 0;
 }
@@ -751,13 +751,13 @@ label {
 }
 
 #footer .contact-item p {
-  color: #fff;
+  color: #fff !important;
 }
 
 #footer .copyrights {
   padding: 20px 0;
   margin-top: 50px;
-  //* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0a6ca+50,f986c0+94 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0a6ca+50,f986c0+94 */
   background: #f0a6ca;
   /* Old browsers */
   background: -moz-linear-gradient(top, #f0a6ca 50%, #f986c0 94%);
