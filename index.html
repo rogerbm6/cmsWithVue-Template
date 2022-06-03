@@ -96,20 +96,30 @@
             <span class="icon-bar"></span> <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand page-scroll" href="#page-top">JULY MIRA</a>
+          <a class="navbar-brand page-scroll" href="#page-top">Inicio</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about" class="page-scroll">Inicio</a></li>
             <li>
-              <a href="#restaurant-menu" class="page-scroll">Servicios</a>
+              <a href="#about" class="page-scroll" key="inicio">Inicio</a>
             </li>
-            <li><a href="#portfolio" class="page-scroll">Galería</a></li>
-            <li><a href="#team" class="page-scroll">Sobre mi</a></li>
             <li>
-              <a href="#call-reservation" class="page-scroll">Contacto</a>
+              <a href="#restaurant-menu" class="page-scroll" key="servicios"
+                >Servicios</a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" class="page-scroll" key="galeria">Galería</a>
+            </li>
+            <li>
+              <a href="#team" class="page-scroll" key="SobreMi">Sobre mi</a>
+            </li>
+            <li>
+              <a href="#call-reservation" class="page-scroll" key="contacto"
+                >Contacto</a
+              >
             </li>
           </ul>
         </div>
@@ -123,9 +133,11 @@
           <div class="container">
             <div class="row">
               <div class="intro-text">
-                <h1>Servicios Integrales</h1>
-                <p>Limpieza / Desinfección / Mantenimiento</p>
-                <a href="#about" class="btn btn-custom btn-lg page-scroll"
+                <h1 key="titulo"><img src="img/logo.png" alt="Logo de july mira" id="logo"></h1>
+                <a
+                  href="#about"
+                  class="btn btn-custom btn-lg page-scroll"
+                  key="button1"
                   >Nuestra historia</a
                 >
               </div>
@@ -149,9 +161,9 @@
           </div>
           <div class="col-xs-12 col-md-6">
             <div class="about-text">
-              <h2>Nuestra historia</h2>
+              <h2 key="button1">Nuestra historia</h2>
               <hr />
-              <p>
+              <p key="paragraph1">
                 En el mes de marzo de 2018 empieza a rondar por mi cabeza la
                 idea de una pequeña forma de desarrollar mis conocimientos y
                 habilidades de mantenimiento, desinfección y limpieza; los
@@ -173,7 +185,7 @@
             <div class="about-text">
               <h2>July Mira</h2>
               <hr />
-              <p>
+              <p key="paragraph2">
                 Estamos especializados en servicios de limpieza profesional
                 siendo referencia como empresa de limpieza de oficinas, locales,
                 edificios, casas vacacionales y cualquier tipo de instalación,
@@ -184,7 +196,7 @@
                 cualquier superficie a través de las mejores técnicas y
                 materiales del sector de la limpieza profesional.
               </p>
-              <h3>"Cuidamos cada detalle"</h3>
+              <h3 key="sentence">"Cuidamos cada detalle"</h3>
             </div>
           </div>
           <div class="col-xs-12 col-md-6">
@@ -203,9 +215,9 @@
     <div id="restaurant-menu">
       <div class="section-title text-center center">
         <div class="overlay">
-          <h2>nuestros servicios</h2>
+          <h2 key="titulo2">nuestros servicios</h2>
           <hr />
-          <p>
+          <p key="subTitulo2">
             Esta es una lista de los servicios que ofrecemos en desinfección,
             limpieza y mantenimiento, para obtener más información sobre estos
             puede contactarnos
@@ -216,57 +228,55 @@
         <div class="row">
           <div class="col-xs-12 col-sm-6">
             <div class="menu-section">
-              <h2 class="menu-section-title">Limpieza y Desinfección</h2>
+              <h2 class="menu-section-title" key="services1">
+                Limpieza y Desinfección
+              </h2>
               <hr />
               <div class="menu-item">
-                <div class="menu-item-name">
-                  Limpieza de viviendas vacacionales y habituales
+                <div class="menu-item-name" key="menu1">
+                  Limpieza de viviendas vacacionales
                 </div>
-                <div class="menu-item-description">
+                <div class="menu-item-description" key="description1">
                   Nos encargamos de mantener en perfectas condiciones de
-                  limpieza apartamento, casa, chalet para sus huéspedes o para
-                  usted
+                  limpieza apartamentos, casas, chalets para sus huéspedes, nos encargamos de dejar el lugar con todo lo necesario para una excelente estadía. (agua, papel higienico etc.)
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Limpieza de comunidades</div>
-                <div class="menu-item-description">
+                <div class="menu-item-name" key="menu2">
+                  Limpieza de comunidades
+                </div>
+                <div class="menu-item-description" key="description2">
                   Nos encargamos de mantener en perfectas condiciones de
-                  limpieza su portal o urbanización de vecinos.
+                  limpieza su portal o urbanización de vecinos, se incluye la limpieza de todos los pasillos, escaleras, zona de buzones, zona de basuras y jardines.
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">
+                <div class="menu-item-name" key="menu3">
                   Limpieza de oficinas y empresas
                 </div>
-                <div class="menu-item-description">
+                <div class="menu-item-description" key="description3">
                   Nos encargamos de mantener en óptimas condiciones de limpieza
                   su lugar de trabajo. Les ofrecemos un ambiente de trabajo
-                  limpio y confortable.
+                  limpio y confortable, nos adaptamos a sus horarios y necesidades.
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">
-                  Limpieza de fachadas Rótulos y grafitis
+                <div class="menu-item-name" key="menu4">
+                  Limpieza en caso de siniestros
                 </div>
-                <div class="menu-item-description">
-                  Nos encargamos de limpiar la fachada y el rótulo de su
-                  negocio. Incluyendo cualquier grafiti o pintada
-                </div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-name">Ayuda a domicilio</div>
-                <div class="menu-item-description">
-                  Con el objetivo de atender las necesidades de su vida diaria,
-                  cubrimos todas aquellas necesidades domésticas: desde la
-                  limpieza, cocina, lavado, etc. hasta la atención personal,
-                  acompañamiento y cuidado de las personas mayores
-                  independientes en su domicilio.
+                <div class="menu-item-description" key="description4">
+                  Despues de algún accidente o tragedia nos encargamos de regresarle el brillo a su hogar, apartamento, habitacion o almacén, limpieza de recuperación de incendios, inundaciones, terremotos, robos o caso de plagas.
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Limpieza especial</div>
-                <div class="menu-item-description">
+                <div class="menu-item-name" key="menu5">Visitas inmobiliarias</div>
+                <div class="menu-item-description" key="description5">
+                  Preparamos sus viviendas a la venta, las limpiamos y dejamos listas para mostrarlas al publico, cuidamos cada detalle de la limpieza de
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name" key="menu6">Limpieza especial</div>
+                <div class="menu-item-description" key="description6">
                   Estos son algunos de los trabajos más solicitados, limpieza
                   periódica, limpieza de fin de obra, limpieza de desinfección,
                   cuando se precisa de una limpieza estudiada y personalizada
@@ -277,11 +287,13 @@
           </div>
           <div class="col-xs-12 col-sm-6">
             <div class="menu-section">
-              <h2 class="menu-section-title">Mantenimiento y jardinería</h2>
+              <h2 class="menu-section-title" key="services2">
+                Mantenimiento y jardinería
+              </h2>
               <hr />
               <div class="menu-item">
-                <div class="menu-item-name">Servicio Manitas</div>
-                <div class="menu-item-description">
+                <div class="menu-item-name" key="menu7">Servicio Manitas</div>
+                <div class="menu-item-description" key="description7">
                   Nos encargamos de realizar esas pequeñas reparaciones
                   domésticas. <br />
                   Profesionales en su hogar para colgar y descolgar cortinas,
@@ -290,8 +302,8 @@
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Pintura</div>
-                <div class="menu-item-description">
+                <div class="menu-item-name" key="menu8">Pintura</div>
+                <div class="menu-item-description" key="description8">
                   Nos encargamos de pintar esas paredes antiguas, para darle un
                   toque de modernidad a tu hogar, tenemos pintores
                   profesionales, encargados de pintar desde paredes hasta
@@ -300,20 +312,10 @@
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Reformas</div>
-                <div class="menu-item-description">
-                  Cuando tienes la necesidad de reformar detalles e tu hogar
-                  debido a la antiguedad o cuaquier otra condición nosotros
-                  somos lo que necesitas, nos encargamos de hacer las reformas
-                  necesarias en tu hogar para mantenerlo en perfectas
-                  condiciones.
-                </div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-name">
+                <div class="menu-item-name" key="menu10">
                   Riego y mantenimiento de jardines
                 </div>
-                <div class="menu-item-description">
+                <div class="menu-item-description" key="description10">
                   Con el objetivo de mantener en perfecto estado sus jardines
                   pactamos un mantenimiento semanal o mensual(según su
                   necesidad) y adcuamos el riego de las plantas según sus
@@ -321,10 +323,10 @@
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">
+                <div class="menu-item-name" key="menu11">
                   Retirada mala hierba, hojas y enseres
                 </div>
-                <div class="menu-item-description">
+                <div class="menu-item-description" key="description11">
                   Para que sus jardines se vean en perfecto estado, nos
                   encargamos de retirar toda la basura de ellos, recogemos las
                   hojas y ramas de los arboles, también nos encargamos de
@@ -332,8 +334,8 @@
                 </div>
               </div>
               <div class="menu-item">
-                <div class="menu-item-name">Abonado</div>
-                <div class="menu-item-description">
+                <div class="menu-item-name" key="menu12">Abonado</div>
+                <div class="menu-item-description" key="description12">
                   Nos encargamos de mantener tus plantas con los cuidados en el
                   abono adecuado, desde quimico hasta vegetal según tu necesidad
                   y la de tus plantas.
@@ -728,8 +730,8 @@
             <p>Telefono: <a href="tel:+34 696 60 51 22">+34 696 60 51 22</a></p>
             <p>
               Email:
-              <a href="mailto:julymiraclean@gmail.com"
-                >julymiraclean@gmail.com</a
+              <a href="mailto:info@julymira.es"
+                >info@julymira.es</a
               >
             </p>
           </div>
@@ -740,7 +742,7 @@
           <div class="social">
             <ul>
               <li>
-                <a href="mailto:julymiraclean@gmail.com"
+                <a href="mailto:info@julymira.es"
                   ><i class="fa fa-envelope"></i
                 ></a>
               </li>

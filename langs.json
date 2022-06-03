@@ -1,0 +1,115 @@
+{ "en": 
+    {
+        "inicio"        : "inicio",
+        "servicios"     : "servicios",
+        "galeria"       : "Galería",
+        "sobreMi"       : "Sobre mi",
+        "contacto"      : "Contacto",
+        "titulo"        : "Servicios Integrales",
+        "subTitulo"     : "Limpieza / Desinfección / Mantenimiento",
+        "button1"       : "Nuestra historia",
+
+        "paragraph1"    : "En el mes de marzo de 2018 empieza a rondar por mi cabeza la
+                            idea de una pequeña forma de desarrollar mis conocimientos y
+                            habilidades de mantenimiento, desinfección y limpieza; los
+                            comienzos no son fáciles, pero, sí muy bonitos, debido a esta
+                            ilusión en ese mismo mes se forma una relación laboral con el
+                            primer cliente en unas villas vacacionales, contratando también
+                            con restaurantes y haciendo pequeñas reformas. <br />
+                            Con mucho amor, dedicación y compromiso empezamos a hacer parte
+                            de diferentes empresas del sector ayudándolos a sostener los
+                            hogares limpios y agradables",
+
+        "paragraph2"    : "Estamos especializados en servicios de limpieza profesional
+                            siendo referencia como empresa de limpieza de oficinas, locales,
+                            edificios, casas vacacionales y cualquier tipo de instalación,
+                            ya sea pública o privada; estamos especializados en la limpieza
+                            de viviendas habituales y zonas comunes, prestando nuestros
+                            servicios por toda la isla.<br />Contamos con profesionales
+                            capacitados para solventar cualquier problema de limpieza en
+                            cualquier superficie a través de las mejores técnicas y
+                            materiales del sector de la limpieza profesional.",
+
+        "sentence"      : "'Cuidamos cada detalle'",
+        "titulo2"       : "nuestros servicios",
+        "subTitulo2"    : "Esta es una lista de los servicios que ofrecemos en desinfección,
+                            limpieza y mantenimiento, para obtener más información sobre estos puede contactarnos",
+
+        "services1"     : "Limpieza y Desinfección",
+
+        "menu1"         : "Limpieza de viviendas vacacionales y habituales",
+        "description1"  : "Nos encargamos de mantener en perfectas condiciones de
+                            limpieza apartamento, casa, chalet para sus huéspedes o para
+                            usted",
+
+        "menu2"         : "Limpieza de comunidades",
+        "description2"  : "Nos encargamos de mantener en perfectas condiciones de
+                            limpieza su portal o urbanización de vecinos.",
+
+        "menu3"         : "Limpieza de oficinas y empresas",
+        "description3"  : "Nos encargamos de mantener en óptimas condiciones de limpieza
+                            su lugar de trabajo. Les ofrecemos un ambiente de trabajo
+                            limpio y confortable.",
+
+        "menu4"         : "Limpieza de fachadas Rótulos y grafitis",
+        "description4"  : "Nos encargamos de limpiar la fachada y el rótulo de su
+                            negocio. Incluyendo cualquier grafiti o pintada",
+
+        "menu5"         : "Ayuda a domicilio",
+        "description5"  : "Con el objetivo de atender las necesidades de su vida diaria,
+                            cubrimos todas aquellas necesidades domésticas: desde la
+                            limpieza, cocina, lavado, etc. hasta la atención personal,
+                            acompañamiento y cuidado de las personas mayores
+                            independientes en su domicilio.",
+
+        "menu6"         : "Limpieza especial",
+        "description6"  : "Estos son algunos de los trabajos más solicitados, limpieza
+                            periódica, limpieza de fin de obra, limpieza de desinfección,
+                            cuando se precisa de una limpieza estudiada y personalizada
+                            conforme a las necesidades de la infraestructura",
+
+        "services2"     : "Mantenimiento y jardinería",
+
+        "menu7"         : "Servicio Manitas",
+        "description7"  : "Nos encargamos de realizar esas pequeñas reparaciones
+                            domésticas. <br />
+                            Profesionales en su hogar para colgar y descolgar cortinas,
+                            estores, cuadros, etc. Pequeñas reparaciones de fontanería y
+                            electricidad.",
+
+        "menu8"         : "Pintura",
+        "description8"  : "Nos encargamos de pintar esas paredes antiguas, para darle un
+                            toque de modernidad a tu hogar, tenemos pintores
+                            profesionales, encargados de pintar desde paredes hasta
+                            muebles de tu casa, dejando en perfectas condiciones tus
+                            muebles y tu hogar.",
+
+        "menu9"         : "Reformas",
+        "description9"  : "Cuando tienes la necesidad de reformar detalles e tu hogar
+                            debido a la antiguedad o cuaquier otra condición nosotros
+                            somos lo que necesitas, nos encargamos de hacer las reformas
+                            necesarias en tu hogar para mantenerlo en perfectas
+                            condiciones.",
+
+        "menu10"        : "Riego y mantenimiento de jardines",
+        "description10" : "Con el objetivo de mantener en perfecto estado sus jardines
+                            pactamos un mantenimiento semanal o mensual(según su
+                            necesidad) y adcuamos el riego de las plantas según sus
+                            necesidades",
+
+        "menu11"        : "Retirada mala hierba, hojas y enseres",
+        "description11" : "Para que sus jardines se vean en perfecto estado, nos
+                            encargamos de retirar toda la basura de ellos, recogemos las
+                            hojas y ramas de los arboles, también nos encargamos de
+                            arrancar las hierbas sobrantes.",
+
+        "menu12"        : "Abonado",
+        "description12" : "Nos encargamos de mantener tus plantas con los cuidados en el
+                            abono adecuado, desde quimico hasta vegetal según tu necesidad
+                            y la de tus plantas.",
+
+
+
+
+    }
+}
